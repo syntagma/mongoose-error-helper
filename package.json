@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-error-helper",
+  "description": "Error helper for mongoose error complex messages. Transform field validators into human readable arrays.",
+  "version": "0.0.1",
+  "author": "Sebastian Bromberg <seba@syntag.ma>",
+  "contributors": [
+    {
+      "name": "Sebastian Bromberg",
+      "url": "https://github.com/syntagma/"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mongoose": "~3.6.11",
+    "mocha": "~1.11.0",
+    "should": "~1.2.2"
+  },
+  "keywords": [
+    "mongoose",
+    "error",
+    "helper",
+    "message",
+    "constraint"
+  ],
+  "repository": "git://github.com/syntagma/mongoose-error-helper",
+  "main": "./lib/mongoose-error-helper",
+  "engines": {
+    "node": "*"
+  }
+}
