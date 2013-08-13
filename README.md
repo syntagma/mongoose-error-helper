@@ -11,7 +11,7 @@ Mongoose Validator simply returns Mongoose style validation objects inside an ar
 
 ##Usage##
 
-	var errorHelper = require('../helpers/mongooseErrorHelper').errorHelper;
+	var errorHelper = require('mongoose-error-helper').errorHelper;
 
 
     function (req, res, next) {

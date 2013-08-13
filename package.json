@@ -1,7 +1,7 @@
 {
   "name": "mongoose-error-helper",
   "description": "Error helper for mongoose error complex messages. Transform field validators into human readable arrays.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sebastian Bromberg <seba@syntag.ma>",
   "contributors": [
     {
