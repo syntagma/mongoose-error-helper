@@ -23,7 +23,7 @@
     "message",
     "constraint"
   ],
-  "repository": "git://github.com/syntagma/mongoose-error-helper",
+  "repository": "git://github.com/picharras/mongoose-error-helper",
   "main": "./lib/mongoose-error-helper",
   "engines": {
     "node": "*"
