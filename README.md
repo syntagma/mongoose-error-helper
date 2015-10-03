@@ -23,6 +23,16 @@ Mongoose Validator simply returns Mongoose style validation objects inside an ar
         }
     }
 
+##With callback##
+
+	var errorHelper = require('mongoose-error-helper').errorHelper;
+
+	if(err){
+		errorHelper(err, function(errors){
+			console.log(errors);
+		});
+	}
+
 
 ##Error Messages Before##
 
@@ -56,7 +66,7 @@ Mongoose Validator simply returns Mongoose style validation objects inside an ar
       'state not an allowed value.',
       'custom validator here',
       'age below minimum.' ]
-    
+
 ##Contributors##
 
 Special thanks to "clarkf" on stackoverflow for for this solution. We made it public for everybody.
